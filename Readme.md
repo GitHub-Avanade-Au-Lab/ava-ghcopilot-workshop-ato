@@ -14,7 +14,6 @@ In order to follow along with the instructions provided in this repository, you 
 - GitHub Copilot Extension for Visual Studio Code
 - [Node.js](https://nodejs.org/en/download/) for JavaScript/TypeScript code and exercises
 - Jest for Unit Testing JavaScript/TypeScript code - `npm install --save-dev jest`
-- .NET SDK (https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) for C# exercises
 - [CodeTour VS Extension](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour) - (Recommended if you want to perform the demos and exercises later on)
 
 ## Getting Started
@@ -42,7 +41,7 @@ Once CodeTour is installed, you will see a new CODETOUR section under the VS Cod
 
 Exercises are available for the following languages:
 
-- JavaScript Readme - [JavaScript Exercise](./exercise/javascript/registration/registration-exercise.md)
+- Typescript Readme - [Typescript Exercise](./exercise/javascript/registration/registration-exercise.md)
 
 
 ## Self-Paced Coding Challenge
@@ -50,3 +49,10 @@ Exercises are available for the following languages:
 At the end of the training, participants will be given a self-paced coding challenge. This challenge will test their understanding of GitHub Copilot and their ability to use it to generate code snippets.
 
 Follow the instructions provided in [Tank Game Challenge](./exercise/javascript/tank-game/challenge.md) to complete the coding challenge.
+
+## Github Copilot Tips + Guidelines + References
+
+- Copilot Chat Readme - [Copilot Chat Guidelines](./instructions/copilot-chat.md)
+
+- Inline Copilot Readme - [Inline Copilot](./instructions/inline-copilot.md)
+
