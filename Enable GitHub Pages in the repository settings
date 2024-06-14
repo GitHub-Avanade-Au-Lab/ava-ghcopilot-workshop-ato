@@ -1,0 +1,8 @@
+To enable GitHub Pages for the repository, follow these steps:
+
+1. Navigate to the repository settings on GitHub.
+2. Go to the "Pages" section.
+3. Select the `docs` folder as the source for GitHub Pages.
+4. Save the changes.
+
+After completing these steps, GitHub Pages will be enabled for the repository, serving the content from the `docs` folder.
