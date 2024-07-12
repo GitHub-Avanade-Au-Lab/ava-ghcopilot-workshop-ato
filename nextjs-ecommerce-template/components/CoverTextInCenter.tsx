@@ -58,9 +58,9 @@ export default function CoverTextInCenter({img, imgPortrait, shadow, content, li
 function CoverContent({intro, head, subHead}: ICoverTextContent) {
 	return (
 		<>
-			{intro && <div className='cover-text-center__content-intro' dangerouslySetInnerHTML={{__html: intro}} />}
-			{head && <div className='cover-text-center__content-head' dangerouslySetInnerHTML={{__html: head}} />}
-			{subHead && <div className='cover-text-center__content-sub-header' dangerouslySetInnerHTML={{__html: subHead}} />}
+			{intro && <div className='cover-text-center__content-intro'>{intro}</div>}
+			{head && <div className='cover-text-center__content-head'>{head}</div>}
+			{subHead && <div className='cover-text-center__content-sub-header'>{subHead}</div>}
 		</>
 	);
 }

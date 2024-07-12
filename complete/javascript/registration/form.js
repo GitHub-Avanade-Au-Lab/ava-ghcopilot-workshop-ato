@@ -26,11 +26,11 @@ document.querySelector("form").addEventListener("submit", function (event) {
   // Display form values
   document.querySelector("form").style.display = "none";
   var formValuesDiv = document.getElementById("formValues");
-  formValuesDiv.innerHTML = `
-          <p>Welcome!</p>
-          <p>Developer:  ${developername}</p>
-          <p>Your registered email is ${developeremail}</p>
-          <p>and your password Length is ${developerpassword.length}</p>
+  formValuesDiv.textContent = `
+          Welcome!
+          Developer:  ${developername}
+          Your registered email is ${developeremail}
+          and your password Length is ${developerpassword.length}
       `;
 
   // If validation passes, you can submit the form manually

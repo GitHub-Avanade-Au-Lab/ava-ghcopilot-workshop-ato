@@ -13,10 +13,10 @@ export default function SwiperSliderSlide({img, link, caption, captionPosition, 
 					href={link}
 					className={clsx('swiper-slider__content', captionPosition && `swiper-slider__content_${captionPosition}`)}
 					{...linkProps}>
-					{caption && <div className='swiper-slider__caption' dangerouslySetInnerHTML={{__html: caption}}></div>}
+					{caption && <div className='swiper-slider__caption'>{caption}</div>}
 				</Link>
 				: <div className={clsx('swiper-slider__content', captionPosition && `swiper-slider__content_${captionPosition}`)}>
-						{caption && <div className='swiper-slider__caption' dangerouslySetInnerHTML={{__html: caption}}></div>}
+						{caption && <div className='swiper-slider__caption'>{caption}</div>}
 				</div>}
 	</>;
 }
