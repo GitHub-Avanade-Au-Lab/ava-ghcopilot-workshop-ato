@@ -21,4 +21,4 @@ const configurations = {
     }
 };
 
-console.log(configurations);
+// Removed the console.log(configurations) statement to avoid logging sensitive information
