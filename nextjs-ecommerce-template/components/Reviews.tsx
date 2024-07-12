@@ -21,9 +21,9 @@ const ReviewsList = ({reviews}: {reviews: IReview[]}) => {
 					{review.jobTitle &&
 					<p className={'reviews__job-title'}>{review.jobTitle}</p>}
 					{review.comment &&
-					<div className={'reviews__comment'}
-							 dangerouslySetInnerHTML={{__html: review.comment}}
-					/>}
+					<div className={'reviews__comment'}>
+						{review.comment}
+					</div>}
 				</div>
 			)}
 		</>
